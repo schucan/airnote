@@ -21,4 +21,4 @@ The content of the web page is inside the link - not on the server that hosts th
 
 ## Thanks
 
-I used [pieroxy's "lz-string"](https://github.com/pieroxy/lz-string/) for compression.
+[pieroxy's "lz-string"](https://github.com/pieroxy/lz-string/) is used for compression, [marked.js' marked](https://github.com/markedjs/marked) for markdown support.
