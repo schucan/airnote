@@ -37,6 +37,9 @@
 			margin: 10px 20px 10px 0;
 			padding: 10px;
 		}
+		.airnoteFormat {
+			white-space: nowrap;
+		}
 		.airnotePreview {
 			border: 2px solid green;
 			position:relative;
@@ -85,13 +88,15 @@
 <p>Read <a rel="noreferrer" href="https://github.com/schucan/airnote">about airnote</a>!</p>
 <button type="button" id="action" onclick="alert('hello there!')">Action!</button>
 </textarea>
-	<p><button type="button" class="airnoteButton" id="speichere">Save</button> Format
-		<input type="radio" id="plain" name="format" value="t">
-		<label for="plain">Plain Text</label>
-		<input type="radio" id="html" name="format" value="h" checked="checked">
-		<label for="html">HTML</label>
-		<input type="radio" id="md" name="format" value="m">
-		<label for="md">Markdown</label>
+	<p><button type="button" class="airnoteButton" id="speichere">Save</button> 
+		<span class="airnoteFormat">
+			<input type="radio" id="plain" name="format" value="t">
+			<label for="plain">Plain Text</label>
+			<input type="radio" id="html" name="format" value="h" checked="checked">
+			<label for="html">HTML</label>
+			<input type="radio" id="md" name="format" value="m">
+			<label for="md">Markdown</label>
+		</span>
 	</p>
 	</form>
 	<div id="info"></div>
